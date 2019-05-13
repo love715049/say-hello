@@ -1,0 +1,26 @@
+{
+    "name": "tom/say-hello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tom",
+            "email": "yue.kun.ting@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Say\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "phpunit/php-timer": "^1.0@dev"
+    },
+    "scripts": {
+        "php-fixer": [
+            "php-cs-fixer fix --config=.php_cs --verbose"
+        ]
+    }
+}
