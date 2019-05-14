@@ -29,6 +29,7 @@ class Hello
 {
     "name": "tomyue/say-hello",
     "type": "library",
+    "description": "This is a test composer",
     "license": "MIT",
     "authors": [
         {
@@ -43,9 +44,14 @@ class Hello
         }
     },
     "require": {
-        "php": "^5.3.3 || ^7.0",
-    },
+        "php": "^5.3.3 || ^7.0"
+    }
 }
+
+```
+##validate your composer.json
+```
+composer validate
 ```
 
 ## Add .gitignore
