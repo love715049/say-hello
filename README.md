@@ -1,6 +1,22 @@
 # SayHello
 
-### Basic Hello World composer package
+### This is a test composer
+
+### Installation
+
+Require this package with composer. It is recommended to only require the package.
+```
+composer require tomyue/say-hello
+```
+
+### Usage
+```php
+use Say\Hello;
+
+$hello = new Hello();
+echo $hello->say("Hello World\n");
+```
+
 
 ## Initialize package
 ```
@@ -49,7 +65,7 @@ class Hello
 }
 
 ```
-##validate your composer.json
+## validate your composer.json
 ```
 composer validate
 ```
